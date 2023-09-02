@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <h1>{{ hello }}</h1>
   </div>
 </template>
 
@@ -16,7 +17,6 @@ export default defineComponent({
   },
   setup() {
     let hello = ref('hello');
-    let d = ref('s');
 
     return { hello };
   }
