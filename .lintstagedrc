@@ -1,0 +1,3 @@
+{
+  "src/**/*.{ts,vue,json,js}": ["prettier --write", "vue-cli-service lint"]
+}

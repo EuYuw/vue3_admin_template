@@ -7,15 +7,5 @@
   "trailingComma": "none",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "quoteProps": "consistent",
-  "overrides": [
-    {
-      "files": ".prettierrc",
-      "options": { "parser": "json", "trailingComma": "none" }
-    },
-    {
-      "files": "*.json",
-      "options": { "tabWidth": 2, "trailingComma": "none" }
-    }
-  ]
+  "quoteProps": "consistent"
 }
