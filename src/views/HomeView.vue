@@ -6,13 +6,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import { defineComponent, ref } from 'vue';
+import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 export default defineComponent({
-  name: "HomeView",
+  name: 'HomeView',
   components: {
-    HelloWorld,
+    HelloWorld
   },
+  setup() {
+    let hello = ref('hello');
+    let d = ref('s');
+
+    return { hello };
+  }
 });
 </script>
